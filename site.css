@@ -1,0 +1,60 @@
+.sp-background-container{
+  position:fixed;
+  img:50%;
+  background:rgba(253, 229, 216, 1);
+  widith: 100%;
+
+}
+.sp-character-container{
+  position:fixed;
+  top:20%;
+  left:15%;
+}
+
+img{
+  width:80%;
+}
+.sp-leftcharacter{
+  position: relative;
+  float: left;
+  width:30%;
+  }
+.sp-leftcharacter-head{
+  width:100%;
+  color:orange;
+}
+.sp-lefcharacter-lowerbody{
+  width:50%;
+  position: absolute;
+  left:40%;
+  top: 88%;
+}
+.sp-lefcharacter-leftarm:hover{
+  width: 60%;
+  position: absolute;
+  left: 5%;
+  top: 38%;
+  transform: rotateY(45deg);
+   transition-origin:top left;
+   transform 1s;
+  }
+
+
+  .sp-lefcharacter-leftleg{
+    width: 60%;
+   position: absolute;
+   left: 20%;
+   top: 120%;
+   }
+   .sp-leftcharacter-rightarm{
+     width: 100%;
+     position: absolute;
+     left: 45%;
+     top: 38%;
+    }
+    .sp-leftcharacter-rightleg{
+      width: 50%;
+     position: absolute;
+     left: 55%;
+    top: 115%;
+    }
