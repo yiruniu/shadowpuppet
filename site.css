@@ -1,6 +1,11 @@
+body {
+  background-color: rgba(253, 229, 216, 1);
+}
+
+
 .sp-background-container{
   position:fixed;
-  img:50%;
+  img:60%;
   background:rgba(253, 229, 216, 1);
   widith: 100%;
 
@@ -14,45 +19,47 @@
 img{
   width:80%;
 }
-.sp-leftcharacter{
+.sp-character{
   position: relative;
   float: left;
   width:30%;
   }
-.sp-leftcharacter-head{
+.sp-character-head{
   width:100%;
   color:orange;
 }
-.sp-lefcharacter-lowerbody{
+.sp-character-lowerbody{
   width:50%;
   position: absolute;
   left:40%;
   top: 88%;
 }
-.sp-lefcharacter-leftarm:hover{
-  width: 60%;
-  position: absolute;
-  left: 5%;
-  top: 38%;
-  transform: rotateY(45deg);
-   transition-origin:top left;
-   transform 1s;
-  }
+.sp-character-leftarm {
+width: 60%;
+position: absolute;
+left: 5%;
+top: 39%;
+transform:rotate(10deg);
+transform-origin: top right;
 
-
-  .sp-lefcharacter-leftleg{
+}
+.sp-character-leftarm:hover {
+transform:rotate(-3.5deg);
+transition: all 1s;
+}
+  .sp-character-leftleg{
     width: 60%;
    position: absolute;
    left: 20%;
    top: 120%;
    }
-   .sp-leftcharacter-rightarm{
+   .sp-character-rightarm{
      width: 100%;
      position: absolute;
      left: 45%;
      top: 38%;
     }
-    .sp-leftcharacter-rightleg{
+    .sp-character-rightleg{
       width: 50%;
      position: absolute;
      left: 55%;
