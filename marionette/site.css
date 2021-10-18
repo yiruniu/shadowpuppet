@@ -1,0 +1,74 @@
+body {
+
+  background-color: rgba(253, 229, 216, 1);
+  margin: 0;
+  padding: 0;
+
+}
+img{
+  width:100%;
+}
+
+.mp-character-continer{
+  position:relative;
+  width:80%;
+  top:3%;
+  bottom:20%;
+}
+
+.mp-character--orange{
+  position:absolute;
+  top;6%;
+  left:12%;
+  width:50%;
+
+}
+.mp-character--orange{
+  position:absolute;
+  top:15%;
+  left:0.5%;
+  width:20%;
+
+}
+.mp-character--orange:hover{
+animation:shake .1s ease-in-out .1s infinite alternate
+}
+@keyframes shake{
+  0%{transform:translate(0);
+  }
+  20%,
+  40%,
+  60%,
+  80%{
+    transform: translate(.20em);
+  }
+  10%,
+  30%,
+  50%{
+    transform:translate(-,2em);
+    }
+    70%,
+    100%{
+      transform:translate(0);
+    }
+}
+
+
+.mp-character--blue{
+  position:absolute;
+  top:15%;
+  left:33%;
+  width:20%;
+}
+.mp-character--blue:hover{
+animation:shake .1s ease-in-out .1s infinite alternate
+}
+.mp-character--green{
+  position:absolute;
+  top:15%;
+  left:75%;
+  width:20%;
+}
+.mp-character--green:hover{
+animation:shake .1s ease-in-out .1s infinite alternate
+}
