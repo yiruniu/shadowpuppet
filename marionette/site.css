@@ -8,32 +8,76 @@ body {
 img{
   width:100%;
 }
+.mp-background-pinkheart{
+  position: absolute;
+  top:0;
+  width: 90%;
+}
+
 
 .mp-character-continer{
   position:relative;
   width:80%;
-  top:3%;
-  bottom:20%;
+  top:0%;
+
 }
 
 .mp-character--orange{
   position:absolute;
-  top;6%;
+  top;0%;
   left:12%;
-  width:50%;
-
-}
-.mp-character--orange{
-  position:absolute;
-  top:15%;
-  left:0.5%;
-  width:20%;
-
-}
-.mp-character--orange:hover{
+  width:15%;
 animation:shake .1s ease-in-out .1s infinite alternate
 }
+
+
+
+
+.mp-character--blue{
+  position:absolute;
+  top:6%;
+  left:40%;
+  width:15%;
+  animation:shake .1s ease-in-out .1s infinite alternate
+}
+
+.mp-character--green{
+  position:absolute;
+  top:6%;
+  left:75%;
+  width:15%;
+  animation:shake .1s ease-in-out .1s infinite alternate
+  }
+}
+
 @keyframes shake{
+  0%{transform:translate(0);
+  }
+  20%,
+  40%,
+  60%,
+  80%{
+    transform: translate(.70em);
+  }
+  10%,
+  30%,
+  50%{
+    transform:translate(-,15em);
+    }
+    70%,
+    100%{
+      transform:translate(0);
+    }
+}
+.sp-nextpage-bunnybutton{
+      width: 8%;
+      position: absolute;
+      right: 0%;
+      top: 0%;
+      animation:shake .8s ease-in-out .1s infinite alternate
+
+      }
+    @keyframes shake{
   0%{transform:translate(0);
   }
   20%,
@@ -45,7 +89,7 @@ animation:shake .1s ease-in-out .1s infinite alternate
   10%,
   30%,
   50%{
-    transform:translate(-,2em);
+    transform:translate(-,4em);
     }
     70%,
     100%{
@@ -53,22 +97,6 @@ animation:shake .1s ease-in-out .1s infinite alternate
     }
 }
 
-
-.mp-character--blue{
-  position:absolute;
-  top:15%;
-  left:33%;
-  width:20%;
-}
-.mp-character--blue:hover{
-animation:shake .1s ease-in-out .1s infinite alternate
-}
-.mp-character--green{
-  position:absolute;
-  top:15%;
-  left:75%;
-  width:20%;
-}
-.mp-character--green:hover{
-animation:shake .1s ease-in-out .1s infinite alternate
+.sp-nextpage-bunnybutton:hover{
+  background-color:lightcoral
 }

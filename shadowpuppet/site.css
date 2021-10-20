@@ -4,40 +4,36 @@ body {
   padding: 0;
 }
 
-
  .sp-background-container{
-  position:static;
-
-  width:auto;
-}
+ width:100%;
+ }
 
 .sp-background-topleft{
 position: absolute;
 top:2%;
 left:0%;
-width:80%;
+width:60%;
 }
 
 .sp-background-topright{
 position: absolute;
-float:left;
 top:0%;
 right:0%;
-width:100%;
+width:80%;
 }
 
 .sp-background-bottomleft{
 position: absolute;
 bottom:0%;
 left:0%;
-width:80%;
+width:70%;
 }
 
 
 .sp-background-bottomright{
 position: absolute;
 float: left;
-width: 110%;
+width: 60%;
 bottom:0%;
 right:0%;
   }
@@ -45,12 +41,14 @@ right:0%;
 .sp-character-container{
   position:fixed;
   top:20%;
-  left:15%;
+  left:20%;
+  width:55%;
 }
 
 img{
-  width:80%;
+  width: 100%;
 }
+
 .sp-character{
   position: relative;
   float: left;
@@ -62,7 +60,7 @@ img{
 .sp-character-lowerbody{
   width:50%;
   position: absolute;
-  left:40%;
+  left:50%;
   top: 88%;
   transform:rotate(0deg);
   transform-origin:left top;
@@ -87,7 +85,7 @@ transition: all 1s;
   .sp-character-leftleg{
    width: 60%;
    position: absolute;
-   left: 20%;
+   left: 25%;
    top: 120%;
    transform:rotate(2deg);
    transform-origin:top right;
@@ -99,21 +97,21 @@ transition: all 1s;
    }
 
    .sp-character-rightarm{
-     width: 105%;
+     width: 108%;
      position: absolute;
-     left: 45%;
+     left: 53%;
      top: 40%;
-     transform:rotate(2deg);
-     transform-origin:top right;
+     transform:rotate(-3deg);
+     transform-origin:top left;
     }
     .sp-character-rightarm:hover {
-    transform:rotate(0deg);
+    transform:rotate(-10deg);
     transition: all 1s;
     }
     .sp-character-rightleg{
       width: 45%;
      position: absolute;
-     left: 55%;
+     left: 65%;
     top: 115%;
     transform:rotate(2deg);
     transform-origin:top right;
@@ -123,17 +121,14 @@ transition: all 1s;
     transition: all 1s;
     }
 
-    .sp-bottomtext-container{
-    position:absolute;
-    bottom:1%;
-    right:5%;
-    text-transform:uppercase;
-    color:black;
-    font-family:fantasy;
-    font-size:45px;
-    transition: 0.4s;
-    }
-    .sp-bottomtext-container:hover{
-      color:DarkMagenta;
-      background-color: orange;
-    }
+    .sp-nextpage-bunnybutton{
+      width: 8%;
+      position: absolute;
+      right: 0%;
+      top: 0%;
+      transition: all .1s ease-in-out
+      }
+    .sp-nextpage-bunnybutton:hover{
+       transform: scale (2.0);
+
+     }
