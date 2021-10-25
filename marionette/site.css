@@ -8,6 +8,42 @@ body {
 img{
   width:100%;
 }
+.background-centralleft-dotcircle{
+  position:absolute;
+  width:30%;
+  top:10%;
+  left:35%;
+}
+.background-leftpalepinkround{
+  position:absolute;
+  width:20%;
+  top:10%;
+  left:50%;
+}
+.background-frontspot{
+  position:absolute;
+  width:35%;
+  top:3%;
+  left:5%;
+}
+.background-centralrightlinedrawing{
+  position:absolute;
+  width:30%;
+  top:40%;
+  left:70%;
+}
+.background-centralpuprleplate{
+  position:absolute;
+  width:30%;
+  top:40%;
+  left:5%;
+}
+.background-pinkroselinedrawing{
+  position:absolute;
+  width:30%;
+  top:15%;
+  left:50%;
+}
 .mp-background-pinkheart{
   position: absolute;
   top:0;
